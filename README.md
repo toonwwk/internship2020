@@ -3,7 +3,7 @@ Kanokporn Wongwaitayakul
 61090008@kmitl.ac.th  
 0830122282
 
-# require 
+# Require 
 pip install bs4  
 pip install flask  
 pip install requests
