@@ -3,4 +3,5 @@ Kanokporn Wongwaitayakul
 
 # require 
 pip install bs4  
-pip install flask
+pip install flask  
+pip install requests
