@@ -2,5 +2,5 @@
 Kanokporn Wongwaitayakul
 
 # require 
-pip install bs4
+pip install bs4  
 pip install flask
