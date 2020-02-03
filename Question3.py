@@ -1,5 +1,5 @@
 ## Q3 i love codeapp
-numberList = list(map(int, input().split()))
+numberList = list(map(int, input('Enter 12 numbers : ').split()))
 wrongGuessList = []
 digits = 12
 guesses = 5
@@ -11,7 +11,7 @@ else:
     print('_ _ _ _ _ _ _ _ _ _ _ _')
     
     for _ in range(guesses):
-        number = int(input())
+        number = int(input('Your guess : '))
         
         if number not in numberList:
             if number not in wrongGuessList:

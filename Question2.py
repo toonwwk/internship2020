@@ -17,7 +17,7 @@ def isFloatingPrime(number):
 
     return False
 
-number = float(input())
+number = float(input('Enter a decimal number : '))
 
 while number != 0.0:
     strNumber = str(number)
@@ -29,4 +29,4 @@ while number != 0.0:
     else:
         print(isFloatingPrime(number))
         
-    number = float(input())
+    number = float(input('Enter a decimal number : '))

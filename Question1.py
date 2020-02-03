@@ -12,10 +12,10 @@ def acronym(inputWords):
     return acronym
     
 acronymList = []
-numberOfWords = int(input())
+numberOfWords = int(input('Enter numbers of words : '))
 
 for i in range (numberOfWords):
-    inputWords = list(input().split())
+    inputWords = list(input('Enter a word : ').split())
     
     acronymList.append(acronym(inputWords))
     

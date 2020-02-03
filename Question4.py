@@ -34,4 +34,3 @@ def createApi():
     return jsonify(logoUrlDict)
 
 app.run()
-    
