@@ -4,9 +4,9 @@ Kanokporn Wongwaitayakul
 0830122282
 
 # Require 
-pip install bs4  
-pip install flask  
-pip install requests
+> pip install bs4  
+> pip install flask  
+> pip install requests
 
 # How to compile
 1. cd to the location of the file from the terminal
